@@ -1,9 +1,9 @@
 
 import 'assets/styles.sass';
 
-import React, {Component} from "react";
+import React, {Component, Fragment} from "react";
 
-import console from 'helpers/console';
+//import console from 'helpers/console';
 
 export default class AppContainer extends Component{
 
@@ -13,11 +13,11 @@ export default class AppContainer extends Component{
 
     render(){
         return (
-            <React.Fragment>
+            <Fragment>
                 <h1>React</h1> <br/>
                 Author: <span className="bold">QuantumXO</span> <br/>
                 React <span className="bold">v{React.version}</span>
-            </React.Fragment>
+            </Fragment>
         )
     }
 }
