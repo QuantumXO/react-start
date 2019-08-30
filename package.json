@@ -112,6 +112,7 @@
     "react-dnd-html5-backend": "^9.3.2",
     "react-router-redux": "^4.0.8",
     "react-sortablejs": "^1.5.1",
+    "recompose": "^0.30.0",
     "redux-phoenix": "^1.2.0",
     "reselect": "^4.0.0",
     "sortablejs": "^1.10.0-rc3",
